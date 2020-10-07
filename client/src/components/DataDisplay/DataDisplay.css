@@ -1,0 +1,24 @@
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.todo-item {
+  max-width: 14rem;
+  border-bottom: 1px solid gray;
+  margin: 1rem;
+}
+
+.loader {
+  position: fixed;
+  z-index: 9999;
+  min-width: 100vw;
+  top: 0;
+  min-height: 100vh;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.loader > p {
+  padding-top: calc(50vh - 1rem);
+}
