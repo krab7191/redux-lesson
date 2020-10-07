@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && yarn start"
+    "start": "cd client && yarn start",
+    "install": "cd client && yarn install"
   },
   "repository": {
     "type": "git",
